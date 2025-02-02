@@ -325,3 +325,4 @@ checkoutButton.addEventListener('click', () => {
   cartModal.style.display = 'none';
 });
 ├── images/ (store all your images here)
+
