@@ -335,25 +335,7 @@ checkoutButton.addEventListener('click', () => {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Website Logo" id="logo">
-    </header>
-    <h1>Welcome to My Vercel Website</h1>
-    <p>This is a simple website deployed on Vercel.</p>
-    <script src="script.js"></script>
-</body>
-</html>
-baltistani-dry-fruit-store/
-├── styles.css
-#logo {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px; /* Add some spacing */
-}
 
-header {
-    display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #fff; /* Optional: dark blue and green */
     padding: 10px; /* Optional: Add some padding */
