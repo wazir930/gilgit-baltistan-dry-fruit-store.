@@ -325,4 +325,37 @@ checkoutButton.addEventListener('click', () => {
   cartModal.style.display = 'none';
 });
 ├── images/ (store all your images here)
+├── index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Vercel Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Website Logo" id="logo">
+    </header>
+    <h1>Welcome to My Vercel Website</h1>
+    <p>This is a simple website deployed on Vercel.</p>
+    <script src="script.js"></script>
+</body>
+</html>
+baltistani-dry-fruit-store/
+├── styles.css
+#logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px; /* Add some spacing */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Optional: dark blue and green */
+    padding: 10px; /* Optional: Add some padding */
+}
 
